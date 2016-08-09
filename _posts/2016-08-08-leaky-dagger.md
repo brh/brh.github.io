@@ -41,10 +41,8 @@ public class FakeModel {
 {% endhighlight %}
 
 So basically when showUpdate is called it attempts to get the latest activity to show a message, of course you wouldn't access an Activity from a model object, but this is just an example.  So what is wrong with this.  Well the app has 2 Activities the first launches the second via a FAB button and both has a button that calls model object which in turns calls the Activity to update the toolbar and to show a Toast message.  Pretty innocuous, but when you add LeakCanary to the app's dependencies you will get a notification of a problem and the toolbar will not be updated.
-{{ imagepath }}
-<img src="{{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png">
-![Step 1]( {{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png)
-![Step 2]( /public/img/leakydagger/bad1.png)
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/fk_8EuZ0WdE" frameborder="0" allowfullscreen></iframe>
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
