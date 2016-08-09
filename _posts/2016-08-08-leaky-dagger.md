@@ -42,7 +42,7 @@ public class FakeModel {
 
 So basically when showUpdate is called it attempts to get the latest activity to show a message, of course you wouldn't access an Activity from a model object, but this is just an example.  So what is wrong with this.  Well the app has 2 Activities the first launches the second via a FAB button and both has a button that calls model object which in turns calls the Activity to update the toolbar and to show a Toast message.  Pretty innocuous, but when you add LeakCanary to the app's dependencies you will get a notification of a problem and the toolbar will not be updated.
 {{ imagepath }}
-{{ site.baseurl }}
+<img src="{{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png">
 ![Step 1]( {{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png)
 ![Step 2]( https://brh.github.io/public/img/leakydagger/bad1.png)
 
