@@ -1,9 +1,9 @@
 # Site Info
 title: Codinfox Lanyon
 tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://brh.github.io" target="_blank">@brh</a>.'
 baseurl: ""
-url: http://codinfox.github.io
+url: http://brh.github.io
 logo: '/public/logo.png'
 
 # Site configurations
@@ -18,6 +18,7 @@ sass:
   sass_dir: _scss    
 paginate: 5
 paginate_path: '/blog/page:num'
+image_path: '/public/img/'
 permalink: pretty
 
 version: 1.0.0
@@ -44,7 +45,7 @@ nav:
   About:          
     - '/about/'
   Github Project: 
-    - 'http://codinfox.github.io/'
+    - 'http://brh.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
