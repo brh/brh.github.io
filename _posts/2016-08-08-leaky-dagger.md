@@ -74,9 +74,10 @@ public class StatusActivity extends AppCompatActivity {
         Dagger.activateActivityComponent(this);
     }
 }
+{% endhighlight %}
 
-The video below shows that the Toasts and the Toolbars are all updated/displayed properly.  
+The video below shows after the code updatae that the Toasts and the Toolbars are all updated/displayed properly.  
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/tJ4az0O_fAE" frameborder="0" allowfullscreen></iframe>
 
-See the code at [GitHub](https://github.com/brh/DaggerInspect).
+See the offending code at [GitHub](https://github.com/brh/DaggerInspect), the fix is shown as a pull request.
