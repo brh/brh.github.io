@@ -44,7 +44,7 @@ So basically when showUpdate is called it attempts to get the latest activity to
 {{ imagepath }}
 <img src="{{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png">
 ![Step 1]( {{ site.baseurl }}{{ site.imagepath }}leakydagger/bad1.png)
-![Step 2]( https://brh.github.io/public/img/leakydagger/bad1.png)
+![Step 2]( /public/img/leakydagger/bad1.png)
 
 [Jekyll](http://jekyllrb.com) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From [the project's readme](https://github.com/mojombo/jekyll/blob/master/README.markdown):
 
