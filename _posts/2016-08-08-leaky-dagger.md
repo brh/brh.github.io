@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Leaking Activities with Dagger
-tag: Java, Android, Dagger
+tag: Java
+tag: Android
+tag: Dagger
 ---
 
 [Dagger 2](https://github.com/google/dagger) is a dependency injection library that is highly touted by the intelligentsia of the Android development world.  I am not here to knock Dagger, but to point out (or to be pointed at) a missing step developers may be missing when using Dagger to inject the current Activity in different areas of code.  The standard way I have found for setting up an Activity's Dagger Component is:
