@@ -45,7 +45,9 @@ So basically when showUpdate is called it attempts to get the latest activity to
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/fk_8EuZ0WdE" frameborder="0" allowfullscreen></iframe>
 
+
 LeakCanary reports it like this:
+
 ![Leak](/public/img/leakydagger/leak.png)
 
 So, as you may have seen in the video when the first Activity is shown and the button is click the Toolbar is updated and a Toast shows up saying the "Update from presenter FirstActivity".  This happens for the Second Activity as well, but when you push the back button and click the button on the first Activity it says "Update from presenter SecondActivity"?!?!  Why, not the current Activity?  Because, Dagger's component is only updated in onCreate and the Activity is being resumed/restarted.  So, the fix is simple (create/activate component in onRestart):
