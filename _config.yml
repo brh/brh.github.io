@@ -1,9 +1,9 @@
 # Site Info
 title: Codinfox Lanyon
 tagline: 'A Jekyll theme based on Lanyon'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://brh.github.io" target="_blank">@brh</a>.'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://brh.github.io/blog/" target="_blank">@brh</a>.'
 baseurl: ""
-url: http://brh.github.io/blog
+url: http://brh.github.io/blog/
 logo: '/public/logo.png'
 
 # Site configurations
