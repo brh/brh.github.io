@@ -1,6 +1,15 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
 permalink:           pretty
 
 # Setup
