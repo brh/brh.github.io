@@ -1,5 +1,5 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            BRH Blog
+description:      "Software Development and Tech"
 logo:             logo.png
 disqus_shortname: hmfaysal
 share:            true
@@ -15,7 +15,7 @@ owner:
   avatar:         hmfaysal.jpg
   email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    Family Man, Android Developer, Java Hacker, Web Engineer and Open Source connoisseur (allegedly).
   # Social networking links used in footer. Update and remove as you like.
   twitter:        brh_jr
   facebook:       
