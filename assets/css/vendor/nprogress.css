@@ -1,10 +1,12 @@
+---
+---
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none;
 }
 
 #nprogress .bar {
-  background: #e51843;
+  background: #{{ site.maincolor }};
 
   position: fixed;
   z-index: 1031;
@@ -22,7 +24,7 @@
   right: 0px;
   width: 100px;
   height: 100%;
-  box-shadow: 0 0 10px #e51843, 0 0 5px #e51843;
+  box-shadow: 0 0 10px #{{ site.maincolor }}, 0 0 5px #{{ site.maincolor }};
   opacity: 1.0;
 
   -webkit-transform: rotate(3deg) translate(0px, -4px);
@@ -45,8 +47,8 @@
   box-sizing: border-box;
 
   border: solid 2px transparent;
-  border-top-color: #e51843;
-  border-left-color: #e51843;
+  border-top-color: #{{ site.maincolor }};
+  border-left-color: #{{ site.maincolor }};
   border-radius: 50%;
 
   -webkit-animation: nprogress-spinner 400ms linear infinite;
